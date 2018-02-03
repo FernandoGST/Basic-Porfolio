@@ -8,52 +8,91 @@
 </head>
 
 
-<div class="container">
-<body>
-    
-    
+<body style="background-image:url(./assets/images/background1.png)">
+
+    <div class="headcontainer superDuperBoxyThing">
         <div class="header">
             <div class="pagename">
                 Fernando Gallegos
             </div>
-    
+
             <div class="buttons">
-                <ul>About</ul>
-                <ul>Portfolio</ul>
-                <ul>Contact</ul>
+                <ul>
+                    <a href="./index.html">
+                        About
+                    </a>
+                </ul>
+                <ul>
+                    <a href="./portfolio.html">
+                        Portfolio
+                    </a>
+                </ul>
+                <ul>
+                    <a href="./contact.html">
+                        Contact
+                    </a>
+                </ul>
             </div>
-    
+
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="contact superDuperBoxyThing">
+            <h1>Contact</h1>
+            <hr>
+
+            <div class="form"> 
+                <form action="/action_page.php"></form>
+                    Name
+                    <br>
+                    <input type="text" name="full name" value= "write your name here">
+            <br>
+            <br>
+                    Email
+                    <br>
+                    <input type="text" name="Email" value= "example@domain.com">
+            <br>
+            <br>
+                    Message
+                    <br>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    <br>
+                    <br>
+                    
+                    <input class="isubmit" type="submit" value="Submit">
+                    
+                </form>
         </div>
 
-        <div class="contact">
-                <h1>Contact</h1>
-                <hr>
-                <p>Name</p>
-                <p>Email</p>
-                <p>Message</p>
-                
 
 
-            </div>
+        </div>
+
+        <div class="connect superDuperBoxyThing" style="text-align:center">
+            <h2>Connect with Me</h2>
+            <hr>
             
-            <div class="connect" style="text-align:center">
-                    <h2>Connect with Me</h2>
-                    <img src="./assets/images/githubpic.png" alt="github">
-                    <img src="./assets/images/linkedinpic.png" alt="linked in">
-                    <img src="./assets/images/stackpic.png" alt="Stack Overflow">
-            </div>
+            <a href="https://github.com/FernandoGST">
+                <img src="./assets/images/githubpic.png" alt="github">
+            </a>
+            
+            <a href="https://www.linkedin.com/in/fernandogst/">
+                <img src="./assets/images/linkedinpic.png" alt="linked in">
+            </a>
+
+            <a href="https://stackexchange.com/users/12819224/fernando-gallegos">
+                <img src="./assets/images/stackpic.png" alt="Stack Overflow">
+            </a>
+
         </div>
-
-
+    </div>
+    </div>
+    <div class="footer" style="text-align:center">
+        <p>Copyright © 2018 Fernando Gallegos</p>
+    </div>
 </body>
 
-</div>
 
-<div class="footer" style="text-align:center">
-    
-    <p>Copyright © 2018 Fernando Gallegos</p>
-
-</div>
-    
 
 </html>
